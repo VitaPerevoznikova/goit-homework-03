@@ -267,6 +267,7 @@ text-align: center;
   letter-spacing: 0.02em;
   color: var(--naviblue);
   text-transform: capitalize;
+  margin-top: 32px;
 }
 .section-description {
   font-weight: 400;
@@ -275,8 +276,7 @@ text-align: center;
   letter-spacing: 0.02em;
   color: var(--slate);
   margin-top: 8px;
-
-
+  margin-bottom: 32px;
 }
 .second-header {
   font-weight: 700;
