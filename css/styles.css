@@ -305,7 +305,7 @@ width: calc((100% - 72px) / 4);
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.project-card-item{
+.project-card-item {
   width: calc((100% - 48px) / 3);
 }
 
