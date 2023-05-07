@@ -302,8 +302,7 @@ width: calc((100% - 72px) / 4);
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
+  
 }
 .project-card-item {
   width: calc((100% - 48px) / 3);
