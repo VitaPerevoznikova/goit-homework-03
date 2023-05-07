@@ -307,7 +307,7 @@ width: calc((100% - 72px) / 4);
 }
 
 .project-card-item {
-  width: calc((100% - 48px) / 3);
+  width: calc(( 100% - 48px ) / 3);
 }
 
 /* .project-card-item:not(:nth-child(3n)){
