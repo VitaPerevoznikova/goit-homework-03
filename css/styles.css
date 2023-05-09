@@ -32,7 +32,7 @@ display: block;
 button{
 cursor: pointer;
 }
-.container{
+.container {
 width: 1158px;
 margin-left: auto;
 margin-right: auto;
@@ -65,7 +65,16 @@ body {
 
   --border: 1px solid #e7e9fc;
 }
-
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+}
 /* Logotip */
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -75,10 +84,6 @@ body {
   letter-spacing: 0.03em ;
   text-transform: uppercase;
   color: var(--iris);
-  margin-right: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-
 }
 .studio-logo-header{
   color: var(--naviblue);
@@ -86,11 +91,6 @@ body {
 .studio-logo-footer{
   color: #f4f4fd;
 }
-.menu-item:not(:last-child){
-  margin-right: 40px
-}
-
-
 /* Header Navigation */
 
 .header-page-container{
@@ -98,14 +98,14 @@ display: flex;
 align-items:center ;
 }
 .page-header{
-  padding-top: 24px;
-  padding-bottom:24px;
   border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .page-nav{
   display: flex;
   align-items: center;
-
+  column-gap: 76px;
 }
 .menu{
   display:flex;
@@ -117,9 +117,6 @@ align-items:center ;
   line-height: 1.5;
   color:#2e2f42;
   letter-spacing: 0.02em;
-  column-gap: 40px;
-  padding-top: 24px; 
-  padding-bottom: 24px;
 }
 /* Adress  */
 .address-header{
@@ -132,10 +129,8 @@ align-items: center;
 gap: 40px;
 }
  .address-item{
-/* margin-right: 40px; */
 margin-left: auto;
-
- }
+}
 .address-link { 
   font-style: normal;
   font-weight: 400;
@@ -268,7 +263,7 @@ width: calc((100% - 72px) / 4);
 .filter-group {
   display: flex;
   justify-content: center;
-  margin-bottom: 72px;
+  margin-bottom:72px;
   gap: 24px;
 }
 
@@ -282,11 +277,7 @@ width: calc((100% - 72px) / 4);
   background-color: var(--cloud);
   border: var(--border);
   border-radius: 4px;
-  padding-top: 12px;
-  padding-right: 24px;
-  padding-bottom: 12px;
-  padding-left: 24px;
-  margin-right: 24px;
+  padding: 12px 24px 12px 24px  ;
 }
 
 .portfolio-button:focus,
