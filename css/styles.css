@@ -107,11 +107,8 @@ align-items:center ;
 }
 .menu{
   display:flex;
- column-gap: 40px;
-}
-.menu-item{
- padding-top: 24px;
- padding-bottom: 24px; 
+  gap: 40px;
+  padding: 24px 0;
 }
 .menu-link {
   font-weight: 500;
@@ -119,7 +116,7 @@ align-items:center ;
   line-height: 1.5;
   color:#2e2f42;
   letter-spacing: 0.02em;
-  
+  padding: 24px 0;
 }
 /* Adress  */
 .address-header{
