@@ -259,8 +259,8 @@ width: calc((100% - 72px) / 4);
 }
 /* Portfolio  */
 .filters {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  margin-top: 96px;
+  margin-bottom: 120px;
 }
 
 .filter-group {
