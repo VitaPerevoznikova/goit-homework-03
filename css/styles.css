@@ -103,12 +103,12 @@ align-items:center ;
 }
 .page-nav{
   display: flex;
-  align-items: center;
+  align-items: center; 
+  padding: 24px 0;
 }
 .menu{
   display:flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .menu-link {
   font-weight: 500;
